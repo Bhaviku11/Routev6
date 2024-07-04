@@ -102,13 +102,13 @@ const Dashboard = () => {
           </div>
           {/* End: cards */}
 
-          {/*  */}
+          {/* Start: Other cards */}
           <div className="flex py-4 -mx-4 -my-4 text-[#2A4F67]">
             <div className="w-2/3 px-4 py-4 -my-4 flex flex-col">
-              <div className="flex py-4 -mx-4 -my-4">
+              <div className="grow flex py-4 -mx-4 -my-4">
                 <div className="w-1/2 px-4 py-4">
                   <div
-                    className="relative rounded-3xl p-4 pt-2 min-w-[320px] border-b-[5px] border-[#00000042]"
+                    className="relative rounded-3xl p-4 pt-2 min-w-[320px] border-b-[5px] border-[#00000042] h-full"
                     style={{
                       background:
                         "linear-gradient(241.54deg, rgba(138, 187, 221, 0.2) 0%, rgba(74, 101, 119, 0.2) 100%)",
@@ -211,7 +211,7 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex py-4 -mx-4">
+              <div className="grow flex py-4 -mx-4">
                 <div className="w-1/2 px-4">
                   <div
                     className="relative flex flex-col rounded-3xl h-full min-w-[320px] p-2 pt-2 border-b-[5px] border-[#00000042]"
@@ -243,7 +243,7 @@ const Dashboard = () => {
                   </div>
                 </div>
                 <div className="w-1/2 px-4 -my-4 flex flex-col">
-                  <div className="py-4">
+                  <div className="grow py-4">
                     <div
                       className="relative flex flex-col rounded-3xl h-full min-w-[320px] p-2 pt-2 border-b-[5px] border-[#00000042]"
                       style={{
@@ -283,7 +283,7 @@ const Dashboard = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="py-4">
+                  <div className="grow py-4">
                     <div
                       className="relative flex flex-col rounded-3xl h-full min-w-[320px] min-h-[60px] p-2 pt-2 border-b-[5px] border-[#00000042]"
                       style={{
@@ -355,7 +355,7 @@ const Dashboard = () => {
                   </div>
                   <div className="text-[10px] leading-normal font-bold">
                     <div className="uppercase">Route Details</div>
-                    <div className="text-xs flex flex-wrap -mx-1 py-1.5 px-1">
+                    <div className="text-xs flex flex-col -mx-1 py-1.5 px-1">
                       <div className="flex items-center pt-2 px-1 text-lg">
                         <span className="p-1">
                           <ClockIcon fill="#292D32" />
@@ -398,6 +398,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
+          {/* End: Other cards */}
         </div>
         {/* End: Body */}
       </div>

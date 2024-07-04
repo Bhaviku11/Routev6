@@ -156,7 +156,7 @@ function Navbar() {
   }, [navigate, location, items]);
 
   return (
-    <aside className="flex flex-col bg-gradient-to-b bg-[#2A4F67] from-[#549DCD] rounded-r-xl pb-8 shadow-[16px_8px_8px_-8px_rgba(0,0,0,0.45)]">
+    <aside className="flex flex-col bg-gradient-to-b bg-[#2A4F67] from-[#549DCD] rounded-r-xl pb-8 shadow-[16px_8px_8px_-8px_rgba(0,0,0,0.45)] z-10">
       <div className="p-6">
         <Logo />
       </div>

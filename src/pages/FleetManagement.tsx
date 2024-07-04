@@ -8,7 +8,7 @@ function FleedManagement() {
     <>
       <BreadcrumbsItem to="/fleet-management">Fleet Management</BreadcrumbsItem>
 
-      <div>
+      <div className="grow">
         <div className="pb-3 flex justify-between">
           <h3 className="text-3xl font-bold">Fleet Management</h3>
         </div>
